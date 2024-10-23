@@ -3,11 +3,15 @@
     --cor-de-fundo: #00030C;
     --azul: #167bf7;
     --cinza: #c0c0c0;
+    --fonte-principal: 'inter';
 
 }
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size:16px;
+    font-weight: 400;
 }
 
 *{
@@ -36,4 +40,5 @@ body{
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal)
+
 }
